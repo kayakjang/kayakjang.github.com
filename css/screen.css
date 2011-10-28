@@ -11,14 +11,14 @@ html, body {
 
 body {
     background-color: white;
-    font: 13.34px helvetica, arial, clean, sans-serif;
-    *font-size: small;
-    text-align: center;
+    font: 18px helvetica, arial, clean, sans-serif;
 }
 
+/*
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
 }
+*/
 
 h1 {
     margin-bottom: 1em;
@@ -67,9 +67,8 @@ ul.posts span {
 
 .site {
     font-size: 110%;
-    text-align: justify;
-    width: 40em;
-    margin: 3em auto 2em auto;
+    width: 68%;
+    padding: 4%;
     line-height: 1.5em;
 }
 
@@ -136,15 +135,16 @@ ul.posts span {
   /*****************************************************************************/
 
 #post {
-
+  font-size: 85%;
 }
 
 /* standard */
 
 #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+    background-color: #eee;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
 }
 
 #post ul,
@@ -154,9 +154,8 @@ ul.posts span {
 
 #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #eee;
     font-size: 85%;
-    padding: 0 .2em;
 }
 
 #post pre code {
@@ -181,4 +180,11 @@ ul.posts span {
 
 #related h2 {
     margin-bottom: 1em;
+}
+
+pre code {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  border-radius: 0.5em;
+  font-family: monospace, sans-serif;
 }
